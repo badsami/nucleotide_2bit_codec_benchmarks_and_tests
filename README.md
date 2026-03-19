@@ -32,11 +32,9 @@ main, build_type and target_arch can appear in any order:
 ## Benchmarks
 Benchmarks encode/decode 1.00 MiB-worth of unencoded/encoded bases 1024 times, on a single core.  
   
-The numbers below are from benchmarks compiled with MSVC using compilers flags `-O2 -arch:AVX2`, and with clang using compiler flags `-O2 -mavx2 -mbmi2`. Since benchmarks numbers were within ±5% of each others, the results reported below apply to both MSVC and clang.  
-  
-Benchmarks were run on an AMD Zen 3 5800H CPU (released January 2021), on Windows.  
+The numbers reported below are from benchmarks compiled with MSVC using compilers flags `-O2 -arch:AVX2` and with clang using compiler flags `-O2 -mavx2 -mbmi2`, and run on an AMD Zen 3 5800H CPU (released January 2021) on Windows. For all 4 benchmark scenarii, measurements were within ±5% of each others. So the results reported below apply benchmarks compiled with both MSVC and clang.  
    
-Benchmarks were ran 10 times each, without any open application running in the background. The best of the 10 runs are reported below.
+The benchmarks were ran 10 times each, without any open application running in the background. The best of the 10 runs are reported below.
 
 #### Encoding
 - CPU clock boost disabled
