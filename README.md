@@ -8,7 +8,7 @@ All benchmarks and tests are currently Windows-specific.
 2. Download or clone this repository next to nucleotide_2bit_codec's directory
 3. Make sure you have either Visual Studio Build Tools or Visual Studio's Native Desktop workload 2017 or greater installed
 4. Open either a Windows terminal, or a x64 Native Tools Command Prompt for VS in nucleotide_2bit_codec_benchmarks_and_tests
-5. Run `build.bat` to compile and run benchmarks and tests, for instance `build debug benchmark_decode`:
+5. Run `build.bat` to compile benchmarks and tests, for instance `build debug benchmark_decode`:
 ```
 Usage: build [main] [build_type] [target_arch]
 
